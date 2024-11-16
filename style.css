@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+}
+
+h2.title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+    color: rgba(20, 16, 36, 1);
+    margin-bottom: 60px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Header starting */
+
+header {
+    width: 100%;
+    background-color: rgba(20, 16, 36, 1);
+    overflow: hidden;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 1720px;
+    margin: auto;
+}
+
+header nav a.logo,
+footer .left a.logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav ul li a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+
+header nav span {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: white;
+}
+
+header .header-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1330px;
+    margin: auto;
+    padding-top: 85px;
+}
+
+header .header-title .header-content h1 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 112px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+header .header-title .header-content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+header .header-title .header-content button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(213, 32, 39, 1);
+    padding: 25px 54px;
+    border: none;
+    cursor: pointer;
+}
+
+header .header-title .header-img {
+    width: 783px;
+    height: 917px;
+}
+
+
+/* Main starting */
+
+main {
+    margin: 120px 0;
+}
+
+main p.title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    color: rgba(20, 16, 36, 1);
+    margin-bottom: 60px;
+}
+
+main p.title span {
+    font-weight: 600;
+}
+
+main .box strong {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 112px;
+    color: rgba(213, 32, 39, 1);
+}
+
+main .box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(20, 16, 36, 0.7);
+}
+
+
+/* Section starting */
+
+section.info {
+    padding: 100px 0;
+    background-color: rgba(249, 249, 249, 1);
+}
+
+section.info .box h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(20, 16, 36, 1);
+    margin-bottom: 20px;
+}
+
+section.info .box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(20, 16, 36, 0.7);
+}
+
+
+section.trainers {
+    margin: 120px 0;
+}
+
+section.trainers .box h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(20, 16, 36, 1);
+    margin: 10px 0;
+}
+
+section.trainers .box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(20, 16, 36, 0.7);
+    margin-bottom: 20px;
+}
+
+section.trainers .box a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(213, 32, 39, 1);
+}
+
+
+section.price {
+    margin-bottom: 120px;
+}
+
+section.price .box {
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all .3s;
+    border: 1px solid rgba(20, 16, 36, 0.2);
+}
+
+section.price .box span {
+    display: block;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    transition: all .3s;
+    color: rgba(20, 16, 36, 1);
+    margin-bottom: 60px;
+}
+
+section.price .box strong {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+    transition: all .3s;
+    color: rgba(20, 16, 36, 1);
+}
+
+section.price .box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    transition: all .3s;
+    color: rgba(20, 16, 36, 1);
+    margin-top: 20px;
+}
+
+section.price .box button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 1);
+    padding: 25px 70px;
+    background-color: rgba(213, 32, 39, 1);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+section.price .row .col-4:nth-child(1) .box button {
+    margin-top: 31px;
+}
+
+section.price .box:hover {
+    background-color: rgba(20, 16, 36, 1);
+    transform: scaleY(1.1);
+    transition: all .3s;
+}
+
+section.price .box:hover span,
+section.price .box:hover strong,
+section.price .box:hover p {
+    color: white;
+}
+
+
+section.request {
+    background-color: rgba(213, 32, 39, 1);
+    padding: 85px 0;
+    position: relative;
+}
+
+section.request::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: url("./assets/images/form-back.png") no-repeat center / cover;
+}
+
+section.request .content h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+section.request .content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+}
+
+section.request form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    position: relative;
+    z-index: 3;
+}
+
+section.request form input {
+    background-color: white;
+    border-radius: 5px;
+    padding: 19px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(40, 41, 68, 1);
+    border: none;
+    outline: none;
+}
+
+section.request form input::placeholder {
+    color: rgba(40, 41, 68, 0.7);
+}
+
+section.request form button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    padding: 19px 0;
+    border-radius: 5px;
+    background-color: rgba(20, 16, 36, 1);
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Footer starting */
+
+footer {
+    background-color: rgba(20, 16, 36, 1);
+}
+
+footer .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 1720px;
+    margin: auto;
+}
+
+footer .content .left {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .content .left small {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+footer .content span {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: white;
+}
